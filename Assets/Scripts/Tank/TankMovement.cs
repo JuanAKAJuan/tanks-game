@@ -164,6 +164,9 @@ public class TankMovement : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// Determines and plays the appropriate engine sound based on movement state.
+    /// </summary>
     private void EngineAudio()
     {
         // No input (the tank is stationary)
