@@ -38,37 +38,59 @@ public class TankMovement : MonoBehaviour
 
     public Rigidbody Rigidbody => _rigidbody;
 
-    // Defines the index of the control (1 = left keyboard, 2 = right keyboard, -1 = no control)
+    /// <summary>
+    /// Defines the index of the control (1 = left keyboard, 2 = right keyboard, -1 = no control)
+    /// </summary>
     public int ControlIndex { get; set; } = -1;
 
-    // The name of the input axis for moving forward and back.
+    /// <summary>
+    /// The name of the input axis for moving forward and back.
+    /// </summary>
     private string _movementAxisName;
 
-    // The name of the input axis for turning.
+    /// <summary>
+    /// The name of the input axis for turning.
+    /// </summary>
     private string _turnAxisName;
 
-    // Reference used to move the tank.
+    /// <summary>
+    /// Reference used to move the tank.
+    /// </summary>
     private Rigidbody _rigidbody;
 
-    // The current value of the movement input.
+    /// <summary>
+    /// The current value of the movement input.
+    /// </summary>
     private float _movementInputValue;
 
-    // The current value of the turn input.
+    /// <summary>
+    /// The current value of the turn input.
+    /// </summary>
     private float _turnInputValue;
 
-    // The pitch of the audio source at the start of the scene.
+    /// <summary>
+    /// The pitch of the audio source at the start of the scene.
+    /// </summary>
     private float _originalPitch;
 
-    // References to all the particles systems used by the Tanks
+    /// <summary>
+    /// References to all the particles systems used by the Tanks
+    /// </summary>
     private ParticleSystem[] _particleSystems;
 
-    // The InputAction used to move, retrieved from TankInputUser
+    /// <summary>
+    /// The InputAction used to move, retrieved from TankInputUser
+    /// </summary>
     private InputAction _moveAction;
 
-    // The InputAction used to shot, retrieved from TankInputUser
+    /// <summary>
+    /// The InputAction used to shot, retrieved from TankInputUser
+    /// </summary>
     private InputAction _turnAction;
 
-    // In Direct Control mode, store the direction the user *wants* to go toward
+    /// <summary>
+    /// In Direct Control mode, store the direction the user *wants* to go toward
+    /// </summary>
     private Vector3 _requestedDirection;
 
     private void Awake()
@@ -120,7 +142,7 @@ public class TankMovement : MonoBehaviour
         if (isComputerControlled)
         {
             // but it doesn't have an AI component...
-            var ai = GetComponent<TankAI>();
+            TankAI ai = GetComponent<TankAI>();
             if (ai == null)
             {
                 gameObject.AddComponent<TankAI>();
@@ -133,7 +155,7 @@ public class TankMovement : MonoBehaviour
         }
 
 
-        if (ControlIndex == 1)
+        if (!isComputerControlled && ControlIndex > 0)
         {
             inputUser.ActivateScheme(ControlIndex == 1 ? "KeyboardLeft" : "KeyboardRight");
         }
@@ -195,10 +217,10 @@ public class TankMovement : MonoBehaviour
     {
         if (isDirectControl)
         {
-            var camForward = Camera.main.transform.forward;
+            Vector3 camForward = Camera.main.transform.forward;
             camForward.y = 0;
             camForward.Normalize();
-            var camRight = Vector3.Cross(Vector3.up, camForward);
+            Vector3 camRight = Vector3.Cross(Vector3.up, camForward);
 
             // Creates a vector based on camera look (e.g. pressing up mean we want to go up in the direction of the
             // camera, not forward in the direction of the tank)
@@ -241,7 +263,7 @@ public class TankMovement : MonoBehaviour
         {
             // Compute the rotation needed to reach the desired direction
             float angleTowardTarget = Vector3.SignedAngle(_requestedDirection, transform.forward, transform.up);
-            var rotatingAngle = Mathf.Sign(angleTowardTarget) * Mathf.Min(Mathf.Abs(angleTowardTarget), turnSpeed * Time.deltaTime);
+            float rotatingAngle = Mathf.Sign(angleTowardTarget) * Mathf.Min(Mathf.Abs(angleTowardTarget), turnSpeed * Time.deltaTime);
             turnRotation = Quaternion.AngleAxis(-rotatingAngle, Vector3.up);
         }
         else

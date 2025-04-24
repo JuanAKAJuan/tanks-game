@@ -130,7 +130,7 @@ public class StartMenuSlot : MonoBehaviour
         shoot.enabled = false;
 
         // update the tank stats text with this tank stats
-        m_TankStats.text = $"Speed {move.speed}\nDamage {shoot.m_MaxDamage}\nHealth: {health.m_StartingHealth}";
+        m_TankStats.text = $"Speed {move.speed}\nDamage {shoot.maxDamage}\nHealth: {health.m_StartingHealth}";
 
         //move it to the right preview position so it appears in the right spot on screen
         var position = m_MenuCamera.WorldToScreenPoint(m_TankPreviewPosition.position);

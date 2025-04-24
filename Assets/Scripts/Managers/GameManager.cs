@@ -154,7 +154,7 @@ public class GameManager : MonoBehaviour
         }
 
         // These are the targets the camera should follow.
-        m_CameraControl.m_Targets = targets;
+        m_CameraControl.targets = targets;
     }
 
 

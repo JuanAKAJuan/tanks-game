@@ -51,7 +51,7 @@ public class TankAI : MonoBehaviour
 
         // ensure that both movement and shooting script are set in "computer controlled" mode
         m_Movement.isComputerControlled = true;
-        m_Shooting.m_IsComputerControlled = true;
+        m_Shooting.IsComputerControlled = true;
 
         // to avoid all computer controlled tank pathfinding together (and taxing the CPU), AI tank have a random
         // pathfinding time that will stagger them across multiple frame

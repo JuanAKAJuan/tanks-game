@@ -26,7 +26,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-37311
+35461
 -job-worker-count
 7
 -background-job-worker-count
@@ -35,9 +35,9 @@ Logs/AssetImportWorker0.log
 1
 Successfully changed project path to: /home/juanix/Dev/Uni/tanks-game
 
-(Unity:37301): Gtk-CRITICAL **: 20:54:46.483: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:26927): Gtk-CRITICAL **: 18:42:43.322: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:37301): Gtk-CRITICAL **: 20:54:46.483: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:26927): Gtk-CRITICAL **: 18:42:43.323: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/juanix/Dev/Uni/tanks-game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -74,12 +74,12 @@ Successfully changed project path to: /home/juanix/Dev/Uni/tanks-game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [134077928154240]  Target information:
+Player connection [140574823175296]  Target information:
 
-Player connection [134077928154240]  * "[IP] 192.168.1.224 [Port] 0 [Flags] 2 [Guid] 144675337 [EditorId] 144675337 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.224) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140574823175296]  * "[IP] 192.168.1.224 [Port] 0 [Flags] 2 [Guid] 3825830800 [EditorId] 3825830800 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.224) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [134077928154240] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [134077928154240] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140574823175296] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140574823175296] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -91,7 +91,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.41f1 (46e447368a18)
 [Subsystems] Discovering subsystems at path /home/juanix/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
@@ -219,8 +219,8 @@ Vulkan detection: 2
 [vulkan] Loaded instance function vkCmdEndDebugUtilsLabelEXT
 [vulkan] Loaded instance function vkCmdInsertDebugUtilsLabelEXT
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x60adb54a7d50 [0]: "AMD Radeon RX 7900 XTX (RADV NAVI31)" deviceType=2 vendorID=1002 deviceID=744c
-[Vulkan init] Selected physical device 0x60adb54a7d50
+[Vulkan init] Physical Device 0x5b2c3d351040 [0]: "AMD Radeon RX 7900 XTX (RADV NAVI31)" deviceType=2 vendorID=1002 deviceID=744c
+[Vulkan init] Selected physical device 0x5b2c3d351040
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=209
 [Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
@@ -580,53 +580,53 @@ Vulkan renderer=[AMD Radeon RX 7900 XTX (RADV NAVI31)] id=[744c]
 Vulkan device type 2
 Vulkan driverversion=[25.0.4 (0x06400004)] uint=[104857604]
 Vulkan driverLibraryString=[radv (3), Mesa 25.0.4-arch1.1]
-Vulkan PSO: Cache data successfully loaded [size=36,path=/tmp/DefaultCompany/tanks-game/vulkan_pso_cache.bin]
+Vulkan PSO: cache data not found [path=/tmp/DefaultCompany/tanks-game/vulkan_pso_cache.bin]
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = '/home/juanix/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed'
 Mono path[1] = '/home/juanix/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/juanix/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56301
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56927
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/juanix/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/juanix/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/juanix/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001437 seconds.
-- Loaded All Assemblies, in  0.245 seconds
+Registered in 0.001434 seconds.
+- Loaded All Assemblies, in  0.240 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.250 seconds
-Domain Reload Profiling: 495ms
-	BeginReloadAssembly (53ms)
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 493ms
+	BeginReloadAssembly (50ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (118ms)
-		LoadAssemblies (53ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (49ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (115ms)
-				TypeCache.ScanAssembly (105ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (107ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (251ms)
+	FinalizeReload (254ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (216ms)
+		SetupLoadedEditorAssemblies (218ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -635,14 +635,14 @@ Domain Reload Profiling: 495ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.444 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.437 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.530 seconds
-Domain Reload Profiling: 973ms
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 932ms
 	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
@@ -651,243 +651,583 @@ Domain Reload Profiling: 973ms
 		CreateAndSetChildDomain (22ms)
 	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (294ms)
-		LoadAssemblies (156ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (153ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (121ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (119ms)
 			BuildScriptInfoCaches (32ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (530ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (496ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (427ms)
+		SetupLoadedEditorAssemblies (393ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (272ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 249 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6081 unused Assets / (8.1 MB). Loaded Objects now: 6746.
-Memory consumption went from 179.8 MB to 171.7 MB.
-Total: 8.055532 ms (FindLiveObjects: 0.524398 ms CreateObjectMapping: 0.474907 ms MarkObjects: 4.066464 ms  DeleteObjects: 2.988695 ms)
+Unloading 6081 unused Assets / (8.6 MB). Loaded Objects now: 6746.
+Memory consumption went from 179.9 MB to 171.3 MB.
+Total: 8.236965 ms (FindLiveObjects: 0.483980 ms CreateObjectMapping: 0.461072 ms MarkObjects: 4.065937 ms  DeleteObjects: 3.224453 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24438.939570 seconds.
-  path: Assets/Art/Models/Tanks/Tank_Alternative_Model.fbx
-  artifactKey: Guid(06cdc8d71bc5371408b340eb71884fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_Alternative_Model.fbx using Guid(06cdc8d71bc5371408b340eb71884fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc38d4d3a67574b33170cd302436f460') in 0.457227124 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+  Time since last request: 24460.091971 seconds.
+  path: Assets/Scripts/Tank/TankMovement.cs
+  artifactKey: Guid(6e4cc0827b572b5408b2cd8eb8b456b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tank/TankMovement.cs using Guid(6e4cc0827b572b5408b2cd8eb8b456b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd159394929d6f4373d7d65c8b02037dd') in 0.002733782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Art/Models/Tanks/Tank_Crawler_Model.FBX
-  artifactKey: Guid(df9eaac106fea424098d268d3a5d7956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_Crawler_Model.FBX using Guid(df9eaac106fea424098d268d3a5d7956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed63bbc8ba4bffdd91167978e1657b54') in 0.201585506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6072 unused Assets / (8.3 MB). Loaded Objects now: 6748.
+Memory consumption went from 143.6 MB to 135.3 MB.
+Total: 9.524903 ms (FindLiveObjects: 0.609044 ms CreateObjectMapping: 0.580988 ms MarkObjects: 5.146723 ms  DeleteObjects: 3.186762 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.906811 seconds.
-  path: Assets/Art/Models/Tanks/Tank_Heavy_Model.fbx
-  artifactKey: Guid(5898c21fe4410fb4b833ed09adbeebba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_Heavy_Model.fbx using Guid(5898c21fe4410fb4b833ed09adbeebba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5750f857a5971136ee8d97a5ecf391de') in 0.02425439 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+  Time since last request: 71.056561 seconds.
+  path: Assets/Scripts/Tank/OldTankMovement.cs
+  artifactKey: Guid(6e4cc0827b572b5408b2cd8eb8b456b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tank/OldTankMovement.cs using Guid(6e4cc0827b572b5408b2cd8eb8b456b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05da2f692b27348fa7477cd389091467') in 0.000722877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.837333 seconds.
-  path: Assets/Art/Models/Tanks/Tank_Light_Model.fbx
-  artifactKey: Guid(2cc97fba4b0e8784e97a5a07710c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_Light_Model.fbx using Guid(2cc97fba4b0e8784e97a5a07710c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac26c2fbd2b79c74047e914b10cc6484') in 0.025472721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6073 unused Assets / (7.9 MB). Loaded Objects now: 6749.
+Memory consumption went from 143.8 MB to 135.9 MB.
+Total: 8.048343 ms (FindLiveObjects: 0.500141 ms CreateObjectMapping: 0.528859 ms MarkObjects: 3.973878 ms  DeleteObjects: 3.044424 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.787262 seconds.
-  path: Assets/Art/Models/Tanks/Tank_MegaBall_Model.FBX
-  artifactKey: Guid(8f4160336315872429a2f658554f7982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_MegaBall_Model.FBX using Guid(8f4160336315872429a2f658554f7982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d6c3bc3c69c3347acc7fbcbe8ecbd26') in 0.031312585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+  Time since last request: 8.417979 seconds.
+  path: Assets/Scripts/Tank/OldTankMovement.cs
+  artifactKey: Guid(6e4cc0827b572b5408b2cd8eb8b456b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tank/OldTankMovement.cs using Guid(6e4cc0827b572b5408b2cd8eb8b456b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05da2f692b27348fa7477cd389091467') in 0.000543328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.213480 seconds.
-  path: Assets/Art/Models/Tanks/Tank_Monster_Model.FBX
-  artifactKey: Guid(bc5be89d3fb7f6342a6fa663e1e9800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_Monster_Model.FBX using Guid(bc5be89d3fb7f6342a6fa663e1e9800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3dfc602413684c622a835b0232432ce') in 0.050872473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.400 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 862ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (461ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6079 unused Assets / (8.0 MB). Loaded Objects now: 6765.
+Memory consumption went from 157.8 MB to 149.7 MB.
+Total: 6.833063 ms (FindLiveObjects: 0.450902 ms CreateObjectMapping: 0.406465 ms MarkObjects: 3.602026 ms  DeleteObjects: 2.372959 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.939781 seconds.
-  path: Assets/Art/Models/Tanks/Tank_Original_Model.fbx
-  artifactKey: Guid(002e2a607f5b64c48be0b3b0d8b8bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_Original_Model.fbx using Guid(002e2a607f5b64c48be0b3b0d8b8bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '582f38fc4681af59b6fa2d7705d64b38') in 0.02501028 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  Time since last request: 165.729820 seconds.
+  path: Assets/Scripts/Tank/OldTankMovement.cs
+  artifactKey: Guid(6e4cc0827b572b5408b2cd8eb8b456b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tank/OldTankMovement.cs using Guid(6e4cc0827b572b5408b2cd8eb8b456b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdd41f5a22f1f9d31cce7b5188a17417') in 0.001105624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.726050 seconds.
-  path: Assets/Art/Models/Tanks/Tank_RocketShip_Model.FBX
-  artifactKey: Guid(41ece72e0713db145a64901e41780965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_RocketShip_Model.FBX using Guid(41ece72e0713db145a64901e41780965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6b3a48382c02dc93928b69c3555a43f') in 0.039476863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6071 unused Assets / (8.6 MB). Loaded Objects now: 6764.
+Memory consumption went from 156.2 MB to 147.5 MB.
+Total: 7.954152 ms (FindLiveObjects: 0.515784 ms CreateObjectMapping: 0.519054 ms MarkObjects: 3.755864 ms  DeleteObjects: 3.162457 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6069 unused Assets / (8.3 MB). Loaded Objects now: 6762.
+Memory consumption went from 156.3 MB to 148.0 MB.
+Total: 8.141145 ms (FindLiveObjects: 0.525593 ms CreateObjectMapping: 0.574441 ms MarkObjects: 3.769670 ms  DeleteObjects: 3.270395 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.289379 seconds.
-  path: Assets/Art/Models/Tanks/Tank_Shark_Model.FBX
-  artifactKey: Guid(9cb291b9205a86444b285015bd02d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_Shark_Model.FBX using Guid(9cb291b9205a86444b285015bd02d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '660285a588b6228272d92bda6d74ee88') in 0.046673269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.116088 seconds.
-  path: Assets/Art/Models/Tanks/Tank_Spike_Model.FBX
-  artifactKey: Guid(aa45563db19d05c4590e11cdad4a709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_Spike_Model.FBX using Guid(aa45563db19d05c4590e11cdad4a709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5ffe70834018aa2915bba96962fba49') in 0.051937855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.717359 seconds.
-  path: Assets/Art/Models/Tanks/Tank_UFO_Model.fbx
-  artifactKey: Guid(d8ab45ba858f142458af9a2bad8122f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_UFO_Model.fbx using Guid(d8ab45ba858f142458af9a2bad8122f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8502204d9f74439f4c95ea8f83b2776') in 0.015467575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.397764 seconds.
-  path: Assets/Art/Models/Tanks/Tank_UTV_Model.FBX
-  artifactKey: Guid(f1b92b00a0a2a2345b070a28f29c9f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Tanks/Tank_UTV_Model.FBX using Guid(f1b92b00a0a2a2345b070a28f29c9f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c327398d7a521014543aca97766794fe') in 0.046327767 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
-
-========================================================================
-Received Import Request.
-  Time since last request: 706.876607 seconds.
-  path: Assets/Prefabs/Environment/Miscellaneous
-  artifactKey: Guid(c80e8e1e6f6364986aebd657cde43d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Miscellaneous using Guid(c80e8e1e6f6364986aebd657cde43d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '641da8916a31df4f0a1ef5bb65665a75') in 0.000357895 seconds
+  Time since last request: 3135.184610 seconds.
+  path: Assets/Scripts/Tank/TankMovement.cs
+  artifactKey: Guid(ded8c0765b01955fd87004331ab0f42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tank/TankMovement.cs using Guid(ded8c0765b01955fd87004331ab0f42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '887c4532a6cba1b364da9c1092e65c00') in 0.000382417 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.102782 seconds.
-  path: Assets/Prefabs/Environment/Moon/BuildingMoon02.prefab
-  artifactKey: Guid(492adbf66171b8a4883446aa1a644c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/BuildingMoon02.prefab using Guid(492adbf66171b8a4883446aa1a644c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb5d20ddd396f61a3e258c5f73451cef') in 0.007603337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+  Time since last request: 4.359646 seconds.
+  path: Assets/Scripts/Tank/TankHealth.cs
+  artifactKey: Guid(030896d0325fa3e4d8d7d4cfe2351cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tank/TankHealth.cs using Guid(030896d0325fa3e4d8d7d4cfe2351cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '272a6aca94fa35fecc0a0dd88eba86cf') in 0.00042155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6069 unused Assets / (8.3 MB). Loaded Objects now: 6762.
+Memory consumption went from 156.4 MB to 148.0 MB.
+Total: 8.081779 ms (FindLiveObjects: 0.558790 ms CreateObjectMapping: 0.578111 ms MarkObjects: 3.868594 ms  DeleteObjects: 3.075587 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 104.881759 seconds.
+  path: Assets/Scripts/Tank/TankAI.cs
+  artifactKey: Guid(cc25b6c35f0ec7f43ad6f047f3623ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tank/TankAI.cs using Guid(cc25b6c35f0ec7f43ad6f047f3623ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2500424ae59739f86135b6f5a70634f0') in 0.000394073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 875ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (110ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (479ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6076 unused Assets / (8.2 MB). Loaded Objects now: 6764.
+Memory consumption went from 156.3 MB to 148.1 MB.
+Total: 8.659689 ms (FindLiveObjects: 0.610811 ms CreateObjectMapping: 0.699455 ms MarkObjects: 3.868293 ms  DeleteObjects: 3.479919 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.676755 seconds.
+  path: Assets/Tutorial_Demo
+  artifactKey: Guid(bbb06a6a30af9dbe3b5fbc2e9858d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tutorial_Demo using Guid(bbb06a6a30af9dbe3b5fbc2e9858d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e9365eda48d84ce384f702302c8b680') in 0.000997754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.248415 seconds.
-  path: Assets/Prefabs/Environment/Moon/BuildingMoon01.prefab
-  artifactKey: Guid(e2916f2deac498e41b95c200300a7e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/BuildingMoon01.prefab using Guid(e2916f2deac498e41b95c200300a7e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '580ef0b80633f3e16e0bd9659aed8aea') in 0.005625312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+  Time since last request: 23.686584 seconds.
+  path: Assets/Scripts/Tank/TankHealth.cs
+  artifactKey: Guid(030896d0325fa3e4d8d7d4cfe2351cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tank/TankHealth.cs using Guid(030896d0325fa3e4d8d7d4cfe2351cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f7aa620bdfe73830231526a55258c96') in 0.000393149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.384 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.445 seconds
+Domain Reload Profiling: 831ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6076 unused Assets / (8.2 MB). Loaded Objects now: 6766.
+Memory consumption went from 156.3 MB to 148.1 MB.
+Total: 7.983639 ms (FindLiveObjects: 0.523169 ms CreateObjectMapping: 0.490488 ms MarkObjects: 3.778019 ms  DeleteObjects: 3.191257 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.389 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6076 unused Assets / (8.4 MB). Loaded Objects now: 6768.
+Memory consumption went from 156.4 MB to 148.0 MB.
+Total: 8.559150 ms (FindLiveObjects: 0.823797 ms CreateObjectMapping: 1.072016 ms MarkObjects: 3.983143 ms  DeleteObjects: 2.679346 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 282.221330 seconds.
+  path: Assets/Settings/Tank_Actions.inputactions
+  artifactKey: Guid(7fb6c1c790fa04865b379a6e8ccd7e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Tank_Actions.inputactions using Guid(7fb6c1c790fa04865b379a6e8ccd7e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46d54fee51365bb3e8f56e914573ad53') in 0.014210693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.444 seconds
+Domain Reload Profiling: 838ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6076 unused Assets / (8.2 MB). Loaded Objects now: 6771.
+Memory consumption went from 156.6 MB to 148.3 MB.
+Total: 6.841776 ms (FindLiveObjects: 0.432762 ms CreateObjectMapping: 0.437638 ms MarkObjects: 3.675702 ms  DeleteObjects: 2.295092 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.404 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 857ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (162ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (452ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6076 unused Assets / (8.3 MB). Loaded Objects now: 6773.
+Memory consumption went from 156.7 MB to 148.3 MB.
+Total: 6.894905 ms (FindLiveObjects: 0.544972 ms CreateObjectMapping: 0.451410 ms MarkObjects: 3.498436 ms  DeleteObjects: 2.398882 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 577.580460 seconds.
+  path: Assets/Audio/SFX/EngineDriving.aif
+  artifactKey: Guid(d7ca9fb5aa30155449192b23d7fb3336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/EngineDriving.aif using Guid(d7ca9fb5aa30155449192b23d7fb3336) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '324f5eeb25c36d8abb77846b99ce8ce2') in 0.119702542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.597682 seconds.
-  path: Assets/Prefabs/Environment/Moon/ColumnMoon02.prefab
-  artifactKey: Guid(21f7f5b9362221f428a7ab9b977b50d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/ColumnMoon02.prefab using Guid(21f7f5b9362221f428a7ab9b977b50d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd60f341b073afb820ed7ba96328a6f61') in 0.006591639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+  Time since last request: 0.000011 seconds.
+  path: Assets/Audio/SFX/PickupPowerUp.wav
+  artifactKey: Guid(9c3f923d9d0e6ac45b94846fce0e3420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/PickupPowerUp.wav using Guid(9c3f923d9d0e6ac45b94846fce0e3420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab0313504929eac11a9376a7c319a723') in 0.003273671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.017814 seconds.
-  path: Assets/Prefabs/Environment/Moon/ConcreteMoon.prefab
-  artifactKey: Guid(e3a8fb3711b4cdd45b5a2f7834fe3740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/ConcreteMoon.prefab using Guid(e3a8fb3711b4cdd45b5a2f7834fe3740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b60086d35e29abd9857e07f75539176d') in 0.004844614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Music/Music_Funky.ogg
+  artifactKey: Guid(57d0deb8f19bd4346bd53aaa96857a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Music_Funky.ogg using Guid(57d0deb8f19bd4346bd53aaa96857a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75d36051bc9fbb9aebd4a42fa093728a') in 0.003537782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.481043 seconds.
-  path: Assets/Prefabs/Environment/Moon/CraterMoon01.prefab
-  artifactKey: Guid(1bc9aad59a33e2540b1452b2d156accb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/CraterMoon01.prefab using Guid(1bc9aad59a33e2540b1452b2d156accb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '250d61ca3f9a71171a50c893619b62e0') in 0.006224793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Music/Music_Western.ogg
+  artifactKey: Guid(32be629fd9aa74da38fbf2835fc9de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Music_Western.ogg using Guid(32be629fd9aa74da38fbf2835fc9de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b12408e55e3206b99b68d75f57f86e8') in 0.003521535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.845706 seconds.
-  path: Assets/Prefabs/Environment/Moon/DunesMoon01.prefab
-  artifactKey: Guid(9240ee9d657c21144804860b0f397ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/DunesMoon01.prefab using Guid(9240ee9d657c21144804860b0f397ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41b5d5f3ec389540eb4c4ca6bae1c261') in 0.004536367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Music/Music_Steady.ogg
+  artifactKey: Guid(8b2a81e3e40a149ff9376a45240ddd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Music_Steady.ogg using Guid(8b2a81e3e40a149ff9376a45240ddd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fa3ff32473c2872445cbd7757d1421b') in 0.003606216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.646381 seconds.
-  path: Assets/Prefabs/Environment/Moon/CratorsMoon01.prefab
-  artifactKey: Guid(0925c23a430e8964aa090a5fabe502c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/CratorsMoon01.prefab using Guid(0925c23a430e8964aa090a5fabe502c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb03d222a93cfa15d6203f0f4f892f7d') in 0.005733267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/Music/Music_Mysterious.ogg
+  artifactKey: Guid(2cd25742f46074296b6a9bb6050acdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Music_Mysterious.ogg using Guid(2cd25742f46074296b6a9bb6050acdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e41f4459b228edd2b3a6db42c5d30a5b') in 0.003262492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.810035 seconds.
-  path: Assets/Prefabs/Environment/Moon/DunesMoon02.prefab
-  artifactKey: Guid(3f751e07837b5044a850c6d98551cb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/DunesMoon02.prefab using Guid(3f751e07837b5044a850c6d98551cb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f07c44db6c8bbf982a67c1850639d232') in 0.004441107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.470 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.488 seconds
+Domain Reload Profiling: 959ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (488ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6076 unused Assets / (7.7 MB). Loaded Objects now: 6784.
+Memory consumption went from 157.4 MB to 149.7 MB.
+Total: 10.209265 ms (FindLiveObjects: 0.746710 ms CreateObjectMapping: 0.956376 ms MarkObjects: 5.304725 ms  DeleteObjects: 3.200472 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.655381 seconds.
-  path: Assets/Prefabs/Environment/Moon/GroundMoon.prefab
-  artifactKey: Guid(d90ea149be1e49d49bdb723591b075d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/GroundMoon.prefab using Guid(d90ea149be1e49d49bdb723591b075d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb9f119e5d1ddb79ea3a2affd8e303d8') in 0.004373204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.605956 seconds.
-  path: Assets/Prefabs/Environment/Moon/PathMoon02.prefab
-  artifactKey: Guid(4d682035cfefdc5438b3b40a3d2c8cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/PathMoon02.prefab using Guid(4d682035cfefdc5438b3b40a3d2c8cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0814140e384839fa2f7ec400d419b0cd') in 0.004943806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.566056 seconds.
-  path: Assets/Prefabs/Environment/Moon/RadarSphereMoon.prefab
-  artifactKey: Guid(5ee5d1785300d414b9745cb7d5a03602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/RadarSphereMoon.prefab using Guid(5ee5d1785300d414b9745cb7d5a03602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad7378f3a8370da750066f94bf965037') in 0.00506735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.015085 seconds.
-  path: Assets/Prefabs/Environment/Moon/RocketMoon.prefab
-  artifactKey: Guid(9a7f2947cc64694478f2bbf5a563c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/RocketMoon.prefab using Guid(9a7f2947cc64694478f2bbf5a563c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4a6a21b11b2151a0861c7c3cc3c6013') in 0.010694306 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.445853 seconds.
-  path: Assets/Prefabs/Environment/Moon/RefineryMoon.prefab
-  artifactKey: Guid(b672e5f997fcf064dbc930e40b43be26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Moon/RefineryMoon.prefab using Guid(b672e5f997fcf064dbc930e40b43be26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bba2b11d307e53cf09304fc48b573f82') in 0.005713197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
+SDL leaked 2 allocations
+Vulkan PSO: data extracted [new size=8560, old size=0, incomplete=0]
+Vulkan PSO: Saved size[8560] path[/tmp/DefaultCompany/tanks-game/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

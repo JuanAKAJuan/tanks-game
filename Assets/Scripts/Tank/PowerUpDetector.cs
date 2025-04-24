@@ -56,11 +56,11 @@ public class PowerUpDetector : MonoBehaviour
         {
             m_HasActivePowerUp = true;
             m_PowerUpHUD.SetActivePowerUp(PowerUp.PowerUpType.ShootingBonus, duration);
-            m_TankShooting.m_ShotCooldown *= cooldownReduction;
+            m_TankShooting.shotCooldown *= cooldownReduction;
             // Wait for the duration of the power up
             yield return new WaitForSeconds(duration);
             // Revert the shooting boost after the duration ends
-            m_TankShooting.m_ShotCooldown /= cooldownReduction;
+            m_TankShooting.shotCooldown /= cooldownReduction;
             m_HasActivePowerUp = false;
         }
     }
