@@ -30,9 +30,6 @@ public class TankMovement : MonoBehaviour
     [Tooltip("The amount by which the pitch of the engine noises can vary.")]
     public float pitchRange = 0.2f;
 
-    [Tooltip("Is set to true this will be controlled by the computer and not a player")]
-    public bool isComputerControlled = false;
-
     [HideInInspector]
     public TankInputUser inputUser;
 
@@ -138,24 +135,13 @@ public class TankMovement : MonoBehaviour
 
     private void Start()
     {
-        // If this is computer controlled...
-        if (isComputerControlled)
-        {
-            // but it doesn't have an AI component...
-            TankAI ai = GetComponent<TankAI>();
-            if (ai == null)
-            {
-                gameObject.AddComponent<TankAI>();
-            }
-        }
-
-        if (ControlIndex == -1 && !isComputerControlled)
+        if (ControlIndex == -1)
         {
             ControlIndex = playerNumber;
         }
 
 
-        if (!isComputerControlled && ControlIndex > 0)
+        if (ControlIndex > 0)
         {
             inputUser.ActivateScheme(ControlIndex == 1 ? "KeyboardLeft" : "KeyboardRight");
         }
@@ -176,11 +162,8 @@ public class TankMovement : MonoBehaviour
 
     private void Update()
     {
-        if (!isComputerControlled)
-        {
-            _movementInputValue = _moveAction.ReadValue<float>();
-            _turnInputValue = _turnAction.ReadValue<float>();
-        }
+        _movementInputValue = _moveAction.ReadValue<float>();
+        _turnInputValue = _turnAction.ReadValue<float>();
 
         EngineAudio();
     }

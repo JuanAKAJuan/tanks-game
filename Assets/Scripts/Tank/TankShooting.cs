@@ -76,16 +76,6 @@ public class TankShooting : MonoBehaviour
     private bool _fired;
 
     /// <summary>
-    /// Has the tank a shell that makes extra damage?
-    /// </summary>
-    private bool _hasSpecialShell;
-
-    /// <summary>
-    /// The amount that the special shell will multiply the damage.
-    /// </summary>
-    private float _specialShellMultiplier;
-
-    /// <summary>
     /// The Input Action for shooting, retrieve from TankInputUser.
     /// </summary>
     private InputAction _fireAction;
@@ -110,8 +100,6 @@ public class TankShooting : MonoBehaviour
         _currentLaunchForce = minLaunchForce;
         _baseMinLaunchForce = minLaunchForce;
         aimSlider.value = _baseMinLaunchForce;
-        _hasSpecialShell = false;
-        _specialShellMultiplier = 1.0f;
 
         aimSlider.minValue = minLaunchForce;
         aimSlider.maxValue = maxLaunchForce;
@@ -244,22 +232,6 @@ public class TankShooting : MonoBehaviour
         explosionData.m_ExplosionRadius = explosionRadius;
         explosionData.m_MaxDamage = maxDamage;
 
-        if (_hasSpecialShell)
-        {
-            explosionData.m_MaxDamage *= _specialShellMultiplier;
-
-            _hasSpecialShell = false;
-            _specialShellMultiplier = 1f;
-
-            PowerUpDetector powerUpDetector = GetComponent<PowerUpDetector>();
-            if (powerUpDetector != null)
-                powerUpDetector.m_HasActivePowerUp = false;
-
-            PowerUpHUD powerUpHUD = GetComponentInChildren<PowerUpHUD>();
-            if (powerUpHUD != null)
-                powerUpHUD.DisableActiveHUD();
-        }
-
         shootingAudio.clip = fireClip;
         shootingAudio.Play();
 
@@ -268,12 +240,6 @@ public class TankShooting : MonoBehaviour
         _shotCooldownTimer = shotCooldown;
     }
 
-
-    public void EquipSpecialShell(float damageMultiplier)
-    {
-        _hasSpecialShell = true;
-        _specialShellMultiplier = damageMultiplier;
-    }
 
     /// <summary>
     /// Return the estyimated position the projectile will have with the charging level (between 0 & 1)
