@@ -41,11 +41,6 @@ public class TankHealth : MonoBehaviour
     /// </summary>
     private bool _dead;
 
-    /// <summary>
-    /// Is the tank invincible in this moment?
-    /// </summary>
-    private bool _isInvincible;
-
     private void Awake()
     {
         _explosionParticles = Instantiate(explosionPrefab).GetComponent<ParticleSystem>();
@@ -65,7 +60,6 @@ public class TankHealth : MonoBehaviour
         // When the tank is enabled, reset the tank's health and whether or not it's dead.
         _currentHealth = startingHealth;
         _dead = false;
-        _isInvincible = false;
 
         SetHealthUI();
     }
